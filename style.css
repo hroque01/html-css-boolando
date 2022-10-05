@@ -57,25 +57,18 @@ header {
             position: relative
         }
 
-        #item1-1{
+        .item1-1{
+            width: 50%;
             position: absolute;
             display: none;
             bottom: 0;
+            top: 0;
         }
 
-        .immagini:hover #item1-1 {
+        .immagini:hover .item1-1 {
             display: block;
         }
 
-        #item2-2{
-            position: absolute;
-            display: none;
-            bottom: 0;
-        }
-
-        .immagini:hover #item2-2 {
-            display: block;
-        }
 
     .red-txt {
         font-weight: bold;
