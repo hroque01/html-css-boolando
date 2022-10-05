@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: orange;
+    /* DA METTERE FORSE */
+            /* top: 0;
+            left: 0;
+            z-index: 500; */
+
+}
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 0 10%;
+    }
+
+    .nav a {
+        color: white;
+        font-size: 15px;
+        text-decoration: none;
+    }
+    
+    .logo {
+        width: 25%;
+        padding-left: 35%;
+        padding-right: 35%;
+    }
+    .nav {
+        
+        /* DEBUG */
+        color: white;
+
+    }
