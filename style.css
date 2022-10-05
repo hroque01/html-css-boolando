@@ -106,6 +106,14 @@ header {
         background-color: green; 
     }
 
+    .heart {
+        position: absolute;
+        font-size: 40px;
+        background-color: white;
+        padding: 10px 10px;
+        top: 50px;
+        right: 100px;
+    }
 /* FOOTER */
 
 footer {
