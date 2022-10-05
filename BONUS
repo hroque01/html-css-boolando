@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ITEMS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booleando</title>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+            <div class="nav">
+                <a href="#">Donna</a>
+                <a href="#">Uomo</a>
+                <a href="#">Bambini</a>
+            </div>
+            <div class="nav">
+                <a href="#">
+                    <img class="logo" src="img/boolean-logo.png" alt="">
+                </a>
+            </div>
+            <div class="nav">
+                <a href="#">
+                    <i class="fa-regular fa-user"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-regular fa-heart"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <!-- Prodotti prima riga -->
+        <div class="row-img">
+            <div class="prodotto">
+                <div class="immagini">
+                    <img class="item" src="img/1.webp" alt="product">
+                    <img class="item1-1"src="img/1b.webp" alt="product">
+                    <span class="sconto">-50%</span>
+                    <span class="tipo">Sostenibilit&agrave;</span>
+                    <div class="favourite">
+                        <span class="heart">&#9825</span>
+                        <span class="heart-red">&#9829</span>
+                    </div>
+                </div>
+                <div>Levi's</div>
+                <h3>RELAXED FIT TEE UNISEX</h3>
+                <div>
+                    <span class="red-txt">14,99 &euro;</span> 
+                    <s>29,99 &euro;</s>
+                </div> 
+            </div>
+            <div class="prodotto">
+                <div class="immagini">
+                    <img class="item" src="img/2.webp" alt="product">
+                    <img class="item1-1" src="img/2b.webp" alt="">
+                    <span class="sconto">-30%</span>
+                    <div class="favourite">
+                        <span class="heart">&#9825</span>
+                        <span class="heart-red">&#9829</span>
+                    </div>
+                </div>
+                <div>Guess</div>
+                <h3>ROSES TEE</h3>
+                <div>
+                    <span class="red-txt">20,99 &euro;</span> 
+                    <s>29,99 &euro;</s>
+                </div>
+            </div>
+            <div class="prodotto">
+                <div class="immagini">
+                    <img class="item" src="img/3.webp" alt="product">
+                    <img class="item1-1" src="img/3b.webp" alt="">
+                    <span class="sconto">-30%</span>
+                    <div class="favourite">
+                        <span class="heart">&#9825</span>
+                        <span class="heart-red">&#9829</span>
+                    </div>
+                </div>
+                <div>Come Zucchero Filato</div>
+                <h3>VOGLIA DI COLORI PASTELLO</h3>
+                <div>
+                    <span class="red-txt">129,99 &euro;</span> 
+                    <s>184,99 &euro;</s>
+                </div>         
+            </div>
+        </div>
+
+        <!-- Prodotti seconda riga -->
+         <div class="row-img">
+            <div class="prodotto">
+                <div class="immagini">
+                    <img class="item" src="img/4.webp" alt="product">
+                    <img class="item1-1" src="img/4b.webp" alt="">
+                    <span class="sconto">-50%</span>
+                    <span class="tipo">Sostenibilit&agrave;</span>
+                    <div class="favourite">
+                        <span class="heart">&#9825</span>
+                        <span class="heart-red">&#9829</span>
+                    </div>
+                </div>
+                <div>Levi's</div>
+                <h3>TEE UNISEX</h3>
+                <div>
+                    <span class="red-txt">14,99 &euro;</span> 
+                    <s>29,99 &euro;</s>
+                </div>
+            </div>
+            <div class="prodotto">
+                <div class="immagini">
+                    <img class="item" src="img/5.webp" alt="product">
+                    <img class="item1-1" src="img/5b.webp" alt="">
+                    <div class="favourite">
+                        <span class="heart">&#9825</span>
+                        <span class="heart-red">&#9829</span>
+                    </div>
+                </div>
+                <div>Maya Deluxe</div>
+                <h3>STRIPE BODICE</h3>
+                <div>
+                    <span class="red-txt">99,99 &euro;</span> 
+                </div>
+            </div>
+            <div class="prodotto">
+                <div class="immagini">
+                    <img class="item" src="img/6.webp" alt="product">
+                    <img class="item1-1" src="img/6b.webp" alt="">
+                    <span class="tipo-single">Sostenibilit&agrave;</span>
+                    <div class="favourite">
+                        <span class="heart">&#9825</span>
+                        <span class="heart-red">&#9829</span>
+                    </div>
+                </div>
+                <div>Esprit</div>
+                <h3>MAGLIONE - BLACK</h3>
+                <div>
+                    <span class="red-txt">29,99 &euro;</span> 
+                </div>         
+            </div>
+        </div> 
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="nav">
+                <h3 class="white">Booleando s.r.l</h3>
+                <br>
+                <a href="#">Informazioni Legali</a>
+                <a href="#">Informativa sulla privacy</a>
+                <a href="#"> Diritto di recesso</a>
+            </div>
+            <div class="nav">
+                <h6 class="white text-center">Trovaci anche su</h6>
+                <br>
+                <a href="#">
+                    <i class="fa-brands fa-square-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-square-pinterest"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-square-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+header {
+    position: fixed;
+    width: 100%;
+    background-color: orange;
+    top: 0;
+    left: 0;
+     z-index: 500; 
+
+}
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 0 10%;
+    }
+
+    .nav a {
+        color: white;
+        font-size: 15px;
+        text-decoration: none;
+        padding-left: 5px;
+    }
+    
+    .logo {
+        width: 25%;
+        padding-left: 35%;
+        padding-right: 35%;
+    }
+
+/* MAIN */
+    .row-img {
+        display: flex;
+        align-items: center;
+        margin: 5% 10%;
+    }
+
+    .prodotto {
+        width: 100%;
+        position: relative;
+    }
+
+    .prodotto img {
+        width: 80%;
+    }
+
+        .immagini  {
+            position: relative
+        }
+
+        .item1-1{
+            width: 50%;
+            position: absolute;
+            display: none;
+            bottom: 0;
+            top: 0;
+        }
+
+        .immagini:hover .item1-1 {
+            display: block;
+        }
+
+
+    .red-txt {
+        font-weight: bold;
+        color: red;
+    }
+
+    .immagini > .sconto {
+        position: absolute;
+        bottom: 50px;
+        left: 0;
+        padding: 5px 10px;
+        background-color: red;
+        color: white;
+        font-weight: bold;
+  
+    }
+
+    .immagini > .tipo {
+        position: absolute;
+        bottom: 50px;
+        padding: 5px 10px;
+        left: 65px;
+        color: white;
+        font-weight: bold;
+        background-color: green; 
+    }
+    
+    .immagini > .tipo-single {
+        position: absolute;
+        bottom: 50px;
+        padding: 5px 10px;
+        left: 0;
+        color: white;
+        font-weight: bold;
+        background-color: green; 
+    }
+
+    .heart {
+        position: absolute;
+        font-size: 40px;
+        background-color: white;
+        padding: 10px 10px;
+        top: 50px;
+        right: 100px;
+    }
+
+    .heart-red {
+        color: red;
+        position: absolute;
+        font-size: 40px;
+        background-color: white;
+        padding: 10px 10px;
+        top: 50px;
+        right: 100px;
+        display: none;
+    }
+
+    .favourite:hover .heart-red {
+        display: block;
+    }
+/* FOOTER */
+
+footer {
+    
+    background-color: black;
+    padding-top: 10px;
+    margin-top: 5%;
+}
+
+    .white {
+        color: white;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
