@@ -83,19 +83,29 @@ header {
         background-color: red;
         color: white;
         font-weight: bold;
-
+  
     }
 
     .immagini > .tipo {
         position: absolute;
         bottom: 50px;
-        left: 60px;
         padding: 5px 10px;
+        left: 65px;
         color: white;
         font-weight: bold;
-        background-color: green;
+        background-color: green; 
     }
     
+    .immagini > .tipo-single {
+        position: absolute;
+        bottom: 50px;
+        padding: 5px 10px;
+        left: 0;
+        color: white;
+        font-weight: bold;
+        background-color: green; 
+    }
+
 /* FOOTER */
 
 footer {
