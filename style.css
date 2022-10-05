@@ -4,8 +4,9 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* HEADER */
 header {
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     background-color: orange;
     /* DA METTERE FORSE */
@@ -28,6 +29,7 @@ header {
         color: white;
         font-size: 15px;
         text-decoration: none;
+        padding-left: 5px;
     }
     
     .logo {
@@ -35,9 +37,19 @@ header {
         padding-left: 35%;
         padding-right: 35%;
     }
-    .nav {
-        
-        /* DEBUG */
-        color: white;
 
+/* FOOTER */
+
+footer {
+    
+    background-color: black;
+    border-bottom: 1px solid white;
+    padding-top: 10px;
+    /* DEBUG */
+    height: 100px;
+    margin-top: 10%;
+}
+
+    .white {
+        color: white;
     }
