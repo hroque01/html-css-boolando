@@ -38,6 +38,20 @@ header {
         padding-right: 35%;
     }
 
+/* MAIN */
+    .row-img {
+        display: flex;
+        align-items: center;
+        margin: 5% 10%;
+    }
+
+    .prodotto {
+        width: 100%;
+    }
+
+    .prodotto img {
+        width: 80%;
+    }
 /* FOOTER */
 
 footer {
@@ -53,3 +67,8 @@ footer {
     .white {
         color: white;
     }
+
+    .text-center {
+        text-align: center;
+    }
+
